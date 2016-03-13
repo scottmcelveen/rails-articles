@@ -1,0 +1,19 @@
+{
+  "name": "rails-articles",
+  "homepage": "https://github.com/scottmcelveen/rails-articles",
+  "description": "getting started guide",
+  "main": "",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/components",
+    "test",
+    "tests"
+  ]
+}
