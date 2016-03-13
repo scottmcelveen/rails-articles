@@ -14,18 +14,16 @@
     </div>
   <% end %>
  
-  <p>
+  <div class="form-group">
     <%= f.label :title %><br>
-    <%= f.text_field :title %>
-  </p>
+    <%= f.text_field :title, class: "form-control" %>
+  </div>
  
-  <p>
+  <div class="form-group">
     <%= f.label :text %><br>
-    <%= f.text_area :text %>
-  </p>
- 
-  <p>
-    <%= f.submit %>
-  </p>
- 
+    <%= f.text_area :text, class: "form-control" %>
+  </div>
+  
+  <%= f.submit class: "btn" %>
+   
 <% end %>
